@@ -1,0 +1,10 @@
+{
+    "file": "/file.csv",
+    "imageFolder": "email-template/images/",
+    "locales": ["en-US"],
+    "template": "templateEmail",
+    "Idfield": "Key",
+    "spaceId": "#####",
+    "environment": "#####",
+    "accessToken": "###############"
+}

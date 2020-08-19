@@ -1,0 +1,48 @@
+{
+  "name": "boilerplate-javascript",
+  "version": "1.0.0",
+  "description": "A boilerplate javascript project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contentful/boilerplate-javascript.git"
+  },
+  "engines": {
+    "node": ">=4.7.2"
+  },
+  "keywords": [
+    "Contentful",
+    "boilerplate",
+    "Getting-Started"
+  ],
+  "author": "Khaled Garbaya <khaled@contentful.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/contentful/boilerplate-javascript/issues"
+  },
+  "homepage": "https://github.com/contentful/boilerplate-javascript#readme",
+  "dependencies": {
+    "@contentful/rich-text-from-markdown": "^13.4.0",
+    "@contentful/rich-text-html-renderer": "^13.4.0",
+    "axios": "^0.19.2",
+    "chalk": "^1.1.3",
+    "cli-table2": "^0.2.0",
+    "contentful": "^4.3.0",
+    "contentful-management": "^5.12.2",
+    "crypto-js": "^4.0.0",
+    "csv-parser": "^2.3.3",
+    "csvtojson": "^2.0.10",
+    "graphql": "^15.0.0",
+    "node-html-parser": "^1.2.16",
+    "turndown": "^6.0.0",
+    "turndown-plugin-gfm": "^1.0.2",
+    "xlsx": "^0.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
